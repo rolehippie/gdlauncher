@@ -1,0 +1,10 @@
+# Standards: 1.2
+---
+# @var gdlauncher_version:description: Version for the package
+# renovate: datasource=github-releases depName=gorilla-devs/GDLauncher
+gdlauncher_version: 1.1.30
+
+# @var gdlauncher_package:description: Download URL for the package to install
+gdlauncher_package: "https://github.com/gorilla-devs/GDLauncher/releases/download/v{{ gdlauncher_version }}/GDLauncher-linux-setup.deb"
+
+...
